@@ -43,7 +43,7 @@ When all 5 gates are ready, generate the Mission Brief contract.
 4. Run the three plan critics in parallel: `scope-creep`, `hidden-dependency`, and `success-criteria`.
 5. Apply blocker findings to `contract-data.json` before rendering.
 6. Read `references/contract-template.md` and generate `contract.md` from it.
-7. Read `references/html-guide.md`, then generate `contract.html` from `scripts/contract-gen.js`, not by hand. Run: `node /absolute/path/to/skills/ideation/scripts/contract-gen.js <contract-data.json> <contract.html>`.
+7. Read `references/html-guide.md`, then generate `contract.html` from `scripts/contract-gen.js`, not by hand. Run: `node /absolute/path/to/.opencode/skills/ideation/scripts/contract-gen.js <contract-data.json> <contract.html>`.
 8. Open the HTML and ask for approval.
 
 Contract rules:
